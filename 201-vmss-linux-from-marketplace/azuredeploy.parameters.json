@@ -1,0 +1,36 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "resourceLocation": {
+      "value": "West US"
+    },
+    "vmSku": {
+      "value": "Standard_A1"
+    },
+    "vmssName": {
+      "value": "GEN-UNIQUE-8"
+    },
+    "instanceCount": {
+      "value": 5
+    },
+    "adminUsername": {
+      "value": "bitnami"
+    },
+    "adminPassword": {
+      "value": "GEN-PASSWORD"
+    },
+    "publisher": {
+      "value": "bitnami"
+    },
+    "offer": {
+        "value": "nodejs"
+    },
+    "sku": {
+        "value": "4-3"
+    },
+    "version": {
+        "value": "latest"
+    }
+  }
+}

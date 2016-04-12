@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "Deploy a simple VM Scale Set from Marketplace images",
+  "description": "This template allows you to deploy a simple VM Scale Set VMs from Marketplace. There is also a jumpbox to enable connections from outside of the VNet the VMs are in.",
+  "summary": "This template deploys a VM Scale Set from Marketplace images with a jumpbox.",
+  "githubUsername": "bureado",
+  "dateUpdated": "2016-04-12"
+}
